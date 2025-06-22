@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Glass Profile Card</title>
-  <link rel="icon" type="image/png" href="Screenshot 2025-06-22 234559.jpg" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
   <style>
@@ -54,18 +53,29 @@
 
   <!-- Glassmorphism Card -->
   <div class="relative z-10 bg-white/10 backdrop-blur-md border border-white/20 text-center p-8 rounded-2xl w-[320px] text-white shadow-xl">
-    <img src="Screenshot 2025-06-22 234559.jpg"alt="Profile Image"
+    <img src="Screenshot 2025-06-22 234559.jpg" alt="Om Dubey Profile Image"
          class="w-24 h-24 mx-auto rounded-full border-4 border-white/30 mb-4">
     <h2 class="text-2xl font-semibold">Om Dubey</h2>
-    <p class="text-gray-300 mb-1 hover hover:text-white">omprakashdu.6200@gmail.com</p>
-    <p class="text-gray-300 mb-4 hover hover:text-white">No = 6200068375</p>
+    <p class="text-gray-300 mb-1 hover:text-white">omprakashdu.6200@gmail.com</p>
+    <p class="text-gray-300 mb-4 hover:text-white">No = 6200068375</p>
+
+    <!-- Buttons -->
     <div class="flex justify-center gap-4">
-      <button class="flex items-center gap-2 px-4 py-2 bg-white text-black text-sm font-medium rounded shadow hover:bg-gray-200 transition">
-        <i class="fa-solid fa-share"></i> Share My Profile
-      </button>
-      <button class="px-4 py-2 border border-white text-white text-sm font-medium rounded hover:bg-white/10 transition">
-        Follow Me
-      </button>
+      <!-- WhatsApp Share -->
+      <a href="https://wa.me/?text=Check%20out%20this%20profile%3A%20https%3A%2F%2Fgithub.com%2F" target="_blank">
+        <button class="bg-white text-black px-4 py-2 rounded border border-black hover:border-white hover:text-white hover:bg-blue-400 transition">
+          Share My Git Profile
+          <i class="fa-brands fa-github"></i>
+        </button>
+      </a>
+
+      <!-- Instagram Follow -->
+      <a href="https://www.instagram.com/omdubey__935/" target="_blank">
+        <button class="bg-transparent px-4 py-2 border border-white text-white text-sm font-medium rounded hover:bg-blue-400 hover:text-black transition ">
+          Follow Me On Instagram
+          <i class="fa-brands fa-instagram "></i>
+        </button>
+      </a>
     </div>
   </div>
 
